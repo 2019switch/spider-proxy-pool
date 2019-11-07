@@ -28,6 +28,6 @@ def get_response(url,params={},options={}):
             return response.text
         return None
     except RequestException as e:
-        print('err: %s,%s' % e,url)
+        print('err: %s,%s' % (e,url))
 
 
